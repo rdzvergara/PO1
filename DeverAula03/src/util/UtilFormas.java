@@ -24,17 +24,15 @@ public final class UtilFormas {
     public static Double ler(Circulo circulo){
         Scanner in= new Scanner(System.in);
         System.out.println("Entre com o valor do lado: ");
-        Double lado= in.nextDouble();
-        in.close();
+        Double lado= in.nextDouble();       
         return lado;
     }
     public static Double ler(Quadrado quadrado){
         Scanner in= new Scanner(System.in);
         System.out.println("Entre com o valor do raio: ");
         Double raio= in.nextDouble();
-        in.close();
         return raio;
     }
-
+    in.close();
 
 }
