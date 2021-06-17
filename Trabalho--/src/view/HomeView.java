@@ -1,5 +1,5 @@
 package view;
-
+/* Equipe: Luiz Fernando, Rodrigo Vergara, Alan */
 import javax.swing.*;
 import java.awt.*;
 import java.awt.event.*;
